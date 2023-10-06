@@ -6,7 +6,7 @@
     <div>
         <div class= "texto-superpuesto">
           <h1>Tienda</h1>
-        </div>
+        </div>    
     </div>
       
     <!-- Aquí se desplegarán los productos -->
@@ -25,15 +25,15 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm" >
-                <img src="http://localhost/MelomaniaSV/Img/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg" alt="" width="259" height="200">
+                <img src="{{ asset('images/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg') }}" alt="" width="259" height="200">
                 <div class="card-body">
                   <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
                   <p class="card-text">$200.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href=" " class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -41,15 +41,15 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg" alt="" width="267" height="200">
+              <img src="{{ asset('/images/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg') }}" alt="" width="259" height="200">
                 <div class="card-body">
                   <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
                   <p class="card-text">$500.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        <a href="" class="btn btn-primary">Detalles</a>
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
                     </div>
-                        <a href="" class="btn btn-success">Agregar</a>
+                      <a href=" " class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -57,121 +57,19 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="{{ asset('/images/50-Partituras-Para-Aficionados-Al-Piano.jpg') }}" alt="" width="259" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href=" " class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
-                    </div>
-                      <a href="" class="btn btn-success">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
-                    </div>
-                      <a href="" class="btn btn-success">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
-                    </div>
-                      <a href="" class="btn btn-success">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
-                    </div>
-                      <a href="" class="btn btn-success">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
-                    </div>
-                      <a href="" class="btn btn-success">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
-
-                    </div>
-                      <a href="" class="btn btn-success">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 @endsection
