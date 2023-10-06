@@ -30,9 +30,9 @@
             
         </div>
         <div class="nav">
-            <div class="urlIni firstNav"><a href="http://127.0.0.1:8000/">Inicio</a></div>
+            <div class="urlIni firstNav"><a href="{{ route('home') }">Inicio</a></div>
             <!-- Hipervinculo para acceder a la tienda y cursos-->
-            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
+            <a class="urlMenu" href="{{ route('tienda') }">Tienda</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Nosotros</a>
         </div>

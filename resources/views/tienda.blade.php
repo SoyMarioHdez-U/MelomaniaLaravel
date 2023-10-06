@@ -25,7 +25,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm" >
-                <img src="{{ asset('images/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg') }}" alt="" width="259" height="200">
+                <img src="{{ asset('images/ampli-guitar.jpg') }}" alt="" width="259" height="200">
                 <div class="card-body">
                   <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
                   <p class="card-text">$200.00 </p>
@@ -41,7 +41,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('/images/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg') }}" alt="" width="259" height="200">
+              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="267" height="200">
                 <div class="card-body">
                   <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
                   <p class="card-text">$500.00 </p>
