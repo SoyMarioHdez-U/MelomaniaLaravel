@@ -33,7 +33,7 @@
             <div class="urlIni firstNav"><a href="{{ route('index') }}">Inicio</a></div>
             <!-- Hipervinculo para acceder a la tienda y cursos-->
             <a class="urlMenu" href="{{ route('tienda') }}">Tienda</a>
-            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
+            <a class="urlMenu" href="{{ route('cursos') }}">Cursos</a>
             <a class="urlMenu" href="{{ route('nosotros') }}">Nosotros</a>
         </div>
 
@@ -45,7 +45,7 @@
         </div>
 
         <div class="footer">
-        <div class="logoFooter"><a href="http://localhost//MelomaniaSV/HTML/"><img src="http://localhost/MelomaniaSV/Img/Logo.png" height="50px"></a></div>
+        <div class="logoFooter"><img src="{{ asset('images/logo.png') }}" height="50px"></div>
         <div class="socialNetworks">
             <a href="http://www.facebook.com"><img src="http://localhost/MelomaniaSV/Img/rss/facebook.png"></a>
             <a href="http://www.twitter.com"><img src="http://localhost/MelomaniaSV/Img/rss/twitter.png"></a>

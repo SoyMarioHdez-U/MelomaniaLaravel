@@ -57,6 +57,9 @@ Route::get('/nosotros', function(){
     return view('nosotros');
 })->name('nosotros');
 
+Route::get('/cursos', function(){
+    return view('cursos');
+})->name('cursos');
 
 
 
