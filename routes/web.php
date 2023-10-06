@@ -23,6 +23,18 @@ Route::get('/css/style.css', function () {
     return asset('css/style.css');
 })->name('css');
 
+Route::get('/images/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg', function () {
+    return asset('images/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg');
+})->name('amplificadorguitarra.image');
+
+Route::get('/images/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg', function () {
+    return asset('/images/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg');
+})->name('guitarranylon.image');
+
+Route::get('/images/50-Partituras-Para-Aficionados-Al-Piano.jpg', function () {
+    return asset('/images/50-Partituras-Para-Aficionados-Al-Piano.jpg');
+})->name('partituras.image');
+
 
 Route::get('/', 'HomeController@index')->name('home');
 
