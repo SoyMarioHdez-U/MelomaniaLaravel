@@ -41,21 +41,21 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 
-Route::get('/', function () {
+Route::get('/registro', function () {
     return view('registro');
 })->name('registro');
 
-Route::get('/', function () {
+Route::get('/tienda', function(){
     return view('tienda');
 })->name('tienda');
 
 
-Route::get('/index', function(){
-    return view('index');
-})->name('index');
+Route::get('/nosotros', function(){
+    return view('nosotros');
+})->name('nosotros');
 
 
 
