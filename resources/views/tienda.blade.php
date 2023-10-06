@@ -1,3 +1,15 @@
+<?php
+
+require 'config/database.php';
+$db = new Database();
+$con = $db->conectar();
+
+$sql = $con->prepare("SELECT id_producto, nombre, precio_unitario FROM productos WHERE activo=1");
+$sql->execute();
+$resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+?>
+
 @extends('plantilla')
 @section('content')
 
@@ -23,21 +35,33 @@
      <!-- productos -->
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm" >
-                <img src="{{ asset('images/ampli-guitar.jpg') }}" alt="" width="259" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
-                  <p class="card-text">$200.00 </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
+            <?php foreach ($resultado as $row) { ?>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <?php
+
+                  $id = $row['id_producto'];
+                  $imagen = "{{ asset('images/productos/" . $id_producto . "/ampli-guitar.jpg') }}";
+
+                  if (!file_exists($imagen)) {
+                    $imagen = "images/no-photo.jpg";
+                  }
+                  
+                  ?>
+                  <img src="{{ asset('images/productos/1/ampli-guitar.jpg') }}" alt="" width="259" height="200">
+                  <div class="card-body">
+                    <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
+                    <p class="card-text">$200.00 </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href=" " class="botondetalles">Detalles</a>
+                      </div>
+                        <a href=" " class="botoncarrito">Agregar</a>
                     </div>
-                      <a href=" " class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
-            </div>
+            <?php  } ?>
 
             <div class="col">
               <div class="card shadow-sm">
