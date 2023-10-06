@@ -1,6 +1,6 @@
 
 <?php
-require 'config/database.php';
+require 'config/database2.php';
 $db = new Database();
 $con = $db->conectar();
 
@@ -71,85 +71,6 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
               </div>
             <?php  } ?>
 
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
-                    </div>
-                      <a href=" " class="botoncarrito">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="{{ asset('/images/50-Partituras-Para-Aficionados-Al-Piano.jpg') }}" alt="" width="259" height="200">
-                <div class="card-body" >
-                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
-                  <p class="card-text">$20.00</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
-                    </div>
-                      <a href=" " class="botoncarrito">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
-                    </div>
-                      <a href=" " class="botoncarrito">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
-                    </div>
-                      <a href=" " class="botoncarrito">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
-                    </div>
-                      <a href=" " class="botoncarrito">Agregar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 @endsection
