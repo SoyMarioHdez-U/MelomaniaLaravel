@@ -21,20 +21,20 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo"><a href="http://127.0.0.1:8000/"><img src="{{ asset('images/logo.png') }}" height="50px"></a></div>
+            <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('images/logo.png') }}" height="50px"></a></div>
             <div class="sesion">
-                <div class="ini-sesion"><a href="http://localhost//MelomaniaSV/HTML/iniciarsesion.php">INICIAR SESIÓN</a></div>
-                <div class="registro">REGÍSTRATE</div>
+                <div class="ini-sesion"><a href="{{ route('registro') }}">INICIAR SESIÓN</a></div>
+                <div class="ini-sesion"><a href="{{ route('registro') }}">REGÍSTRATE</a></div>
                 <div class="carrito">$0.00</div>
             </div>
             
         </div>
         <div class="nav">
-            <div class="urlIni firstNav"><a href="{{ route('index') }">Inicio</a></div>
+            <div class="urlIni firstNav"><a href="{{ route('index') }}">Inicio</a></div>
             <!-- Hipervinculo para acceder a la tienda y cursos-->
-            <a class="urlMenu" href="{{ route('tienda') }">Tienda</a>
+            <a class="urlMenu" href="{{ route('tienda') }}">Tienda</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
-            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Nosotros</a>
+            <a class="urlMenu" href="{{ route('nosotros') }}">Nosotros</a>
         </div>
 
 
