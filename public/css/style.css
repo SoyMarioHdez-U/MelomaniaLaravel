@@ -757,3 +757,76 @@ ul {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   max-height: 100%; /* Asegura que la imagen no supere la altura del contenedor */
 }
+
+
+/* Estilos CSS para el contenedor */
+.containerSub {
+  position: relative; /* Establece la posición relativa para que los elementos internos se posicionen con respecto a este contenedor */
+  width: 100%; /* Ancho deseado para el contenedor */
+}
+
+/* Estilos CSS para la imagen */
+.containerSub img {
+  width: 100%;
+  height: auto; /* Asegura que la imagen se ajuste al ancho del contenedor */
+}
+
+/* Estilos CSS para el texto superpuesto */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el texto vertical y horizontalmente */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+  padding: 10px; /* Espacio adicional alrededor del texto */
+  color: white; /* Color del texto */
+  font-family: 'Inria Sans';
+  text-align: center;
+}
+.text-overlay h1, h2{
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el texto vertical y horizontalmente */
+  
+  padding: 10px; /* Espacio adicional alrededor del texto */
+  color: rgb(223, 180, 180); /* Color del texto */
+  font-family: 'Birthstone';
+}
+
+
+
+/* Estilos CSS para el botón superpuesto */
+.button-overlay {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translateX(-50%); /* Centra horizontalmente el botón */
+  display: block;
+  margin: 0 auto;
+  width: 122px;
+  height: 36px;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-color: #f8f3ee;
+  background-color: #a65644;
+  border: 1px solid #f8f3ee;
+  line-height: 36px; /* Centra verticalmente el texto */
+  text-align: center;
+}
+
+.button-overlay:hover{
+  color: #593c32;
+  background-color: rgba(255, 255, 255, 0.808);
+  border-color: #593c32;
+
+}
+
+.recommended{
+  padding: 5px;
+  display: flex;
+}
+

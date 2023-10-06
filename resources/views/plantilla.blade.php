@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/contenidoindex.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/registro.css') }}"> 
+    
+    
 
     
     <link rel="icon" href="{{ asset('images/icono.png') }}" type="image/x-icon">
@@ -47,9 +49,9 @@
         <div class="footer">
         <div class="logoFooter"><img src="{{ asset('images/logo.png') }}" height="50px"></div>
         <div class="socialNetworks">
-            <a href="http://www.facebook.com"><img src="http://localhost/MelomaniaSV/Img/rss/facebook.png"></a>
-            <a href="http://www.twitter.com"><img src="http://localhost/MelomaniaSV/Img/rss/twitter.png"></a>
-            <a href="http://www.instagram.com"><img src="http://localhost/MelomaniaSV/Img/rss/instagram.png"></a>
+            <a href="https://www.facebook.com/UNICAES/"><img src="{{ asset('images/rss/facebook.png') }}"></a>
+            <a href="https://twitter.com/unicaes_sv?lang=es"><img src="{{ asset('images/rss/twitter.png') }}"></a>
+            <a href="https://www.instagram.com/unicaes_sv/"><img src="{{ asset('images/rss/instagram.png') }}"></a>
         </div>
             <p>© 2023 Melomanía.</p>
             <p class="lastFooter">Tecnologías Web - Universidad Católica de El Salvador</p>
