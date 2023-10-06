@@ -41,7 +41,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="267" height="200">
+              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
                 <div class="card-body">
                   <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
                   <p class="card-text">$500.00 </p>
@@ -61,6 +61,54 @@
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
+                    </div>
+                      <a href=" " class="botoncarrito">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
+                  <p class="card-text">$500.00 </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
+                    </div>
+                      <a href=" " class="botoncarrito">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
+                  <p class="card-text">$500.00 </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
+                    </div>
+                      <a href=" " class="botoncarrito">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
+                  <p class="card-text">$500.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                       <a href=" " class="botondetalles">Detalles</a>
