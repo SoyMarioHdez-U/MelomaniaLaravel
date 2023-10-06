@@ -29,7 +29,7 @@ Route::get('/', 'HomeController@index')->name('home');
 
 
 Route::get('/', function () {
-    return view('index');
+    return view('registro');
 });
 
 Route::get('/', function () {
