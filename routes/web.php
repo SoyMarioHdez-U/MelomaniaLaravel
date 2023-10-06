@@ -27,10 +27,9 @@ Route::get('/css/style.css', function () {
 Route::get('/', 'HomeController@index')->name('home');
 
 
-
 Route::get('/', function () {
     return view('index');
-})->name('home');
+});
 
 
 Route::get('/', function () {
@@ -40,5 +39,11 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('tienda');
 })->name('tienda');
+
+Route::get('/index', function(){
+    return view('index');
+})->name('index');
+
+
 
 
