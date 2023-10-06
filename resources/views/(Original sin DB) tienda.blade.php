@@ -1,16 +1,3 @@
-
-<?php
-require 'config/database.php';
-$db = new Database();
-$con = $db->conectar();
-
-$sql = $con->prepare("SELECT id_producto, nombre, precio_unitario FROM productos WHERE activo=1");
-$sql->execute();
-$resultado = $sql->fetchAll(PDO::FETCH_ASSOC); 
-
-?>
-
-
 @extends('plantilla')
 @section('content')
 
@@ -36,44 +23,25 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
      <!-- productos -->
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <?php foreach ($resultado as $row) { ?>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <?php
-
-                  $id = $row['id_producto'];
-                  $imagen = "{{ asset('images/productos/" . $id_producto . "/ampli-guitar.jpg') }}";
-
-                  if (!file_exists($imagen)) {
-                    $imagen = "images/no-image.jpeg";
-                  }
-                  ?>
-                  <img scr="<?php echo $imagen; ?>">
-
-                  <img src=" <?php echo $imagen; ?> " alt="" width="259" height="200">
-                  <div class="card-body">
-                    <h5 class="card-title"> <?php echo $row['nombre']; ?> </h5>
-                    <!-- <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5> -->
-                    <h5 class="card-title"> <?php echo $row['precio']; ?> </h5>
-                    <!-- <p class="card-text">$200.00 </p> -->
-                    <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <!-- <div class="btn-group">
-                      <a href="details.php?id=<?php echo $row['id']; ?>&token=<?php echo 
-                      hash_hmac('sha1', $row['id'], KEY_TOKEN); ?>" class="botondetalles">Detalles</a>
-                      </div> -->
-                        <a href=" " class="botondetalles">Detalles</a>
-                      </div>
-                        <a href=" " class="botoncarrito">Agregar</a>
+            <div class="col">
+              <div class="card shadow-sm" >
+                <img src="{{ asset('images/productos/1/ampli-guitar.jpg') }}" alt="" width="259" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
+                  <p class="card-text">$200.00 </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
                     </div>
+                      <a href=" " class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
-            <?php  } ?>
+            </div>
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+              <img src="{{ asset('images/productos/2/guit-acus.jpeg') }}" alt="" width="259" height="200">
                 <div class="card-body">
                   <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
                   <p class="card-text">$500.00 </p>
@@ -89,7 +57,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('/images/50-Partituras-Para-Aficionados-Al-Piano.jpg') }}" alt="" width="259" height="200">
+              <img src="{{ asset('/images/productos/3/50-Partituras-Para-Aficionados-Al-Piano.jpg') }}" alt="" width="259" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>

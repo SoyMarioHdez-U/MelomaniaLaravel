@@ -152,16 +152,16 @@ return [
 
 class Database {
     
-    private $hostname="localhost";
+    private $hostname = "localhost";
     private $database = "melomania";
-    private $username ="root";
-    private $password="180294";
+    private $username = "root";
+    private $password = "180294";
     private $charset = "utf8";
 
     function conectar()
     {
         try {
-            $conexion = "mysql:host = " . $this->hostname . "; dbname" . $this->database . 
+            $conexion = "mysql:host = " . $this->hostname . "; dbname=" . $this->database . 
             "; charset=" . $this->charset;
             $options = [
                 PDO::ATTR_ERRMODE => PDO:: ERRMODE_EXCEPTION,
