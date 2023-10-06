@@ -6,8 +6,11 @@
     <title>Bienvenido - MelomaniaSV</title>
 
     <!-- Estilos de css y bootstrap -->
+    
     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/contenidoindex.css"> 
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/registro.css"> 
+    
     <link rel="icon" href="http://localhost/MelomaniaSV/Img/icono.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -51,6 +54,7 @@
         </div>
     </div>
     
+    <script src="http://localhost//MelomaniaSV/js/registro.js"></script>
 </body>
 </html>
 
