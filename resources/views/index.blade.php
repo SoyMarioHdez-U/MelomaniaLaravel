@@ -58,11 +58,24 @@
     <p class="titles">Productos recomendados</p>
 </div>
 
+
+<div class="recommended">
 <div class="card recommended" style="width: 18rem;">
   <img src="{{ asset('images/inicio/6.png') }}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Teclado YAMAHA</h5>
+    <h5 class="card-title">TECLADO YAMAHA</h5>
     <p class="card-text">Teclado de 61 teclas con más de 1000 sonidos editables.</p>
+    <p class="card-text"><B>$2300.00</B></p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+</div>
+
+<div class="card recommended" style="width: 18rem;">
+  <img src="{{ asset('images/inicio/8.png') }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">GUITARRA SQUIER BULLET STRATOCASTER</h5>
+    <p class="card-text">Simple, asequible y práctica, diseñada para principiantes y estudiantes..</p>
+    <p class="card-text"><B>$400.80</B></p>
     <a href="#" class="btn btn-primary">Comprar</a>
   </div>
 </div>
@@ -70,20 +83,24 @@
 <div class="card recommended" style="width: 18rem;">
   <img src="{{ asset('images/inicio/6.png') }}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Teclado YAMAHA</h5>
+    <h5 class="card-title">TECLADO YAMAHA</h5>
     <p class="card-text">Teclado de 61 teclas con más de 1000 sonidos editables.</p>
     <a href="#" class="btn btn-primary">Comprar</a>
   </div>
 </div>
 
 <div class="card recommended" style="width: 18rem;">
-  <img src="{{ asset('images/inicio/6.png') }}" class="card-img-top" alt="...">
+  <img src="{{ asset('images/inicio/7.png') }}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Teclado YAMAHA</h5>
-    <p class="card-text">Teclado de 61 teclas con más de 1000 sonidos editables.</p>
+    <h5 class="card-title">BATERIA PDP LIMITED EDITION</h5>
+    <p class="card-text">El modelo de batería PDLT2213TI edición limitada, está construida con madera de arce europeo y cuenta con diseño Twisted Ivory.</p>
+    <p class="card-text"><B>$1400.00</B></p>
     <a href="#" class="btn btn-primary">Comprar</a>
   </div>
 </div>
+</div>
+
+
 
 
 
