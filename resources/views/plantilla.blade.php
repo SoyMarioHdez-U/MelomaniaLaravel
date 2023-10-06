@@ -7,7 +7,7 @@
 
     <!-- Estilos de css y bootstrap -->
     
-    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
+    <link rel="stylesheet" href="{{route('css')}}"> 
     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/contenidoindex.css"> 
     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/registro.css"> 
     
@@ -20,7 +20,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo"><a href="http://localhost//MelomaniaSV/HTML/"><img src="http://localhost/MelomaniaSV/Img/Logo.png" height="50px"></a></div>
+            <div class="logo"><a href="http://localhost//MelomaniaSV/HTML/"><img src="{{ route('logo.image') }}" height="50px"></a></div>
             <div class="sesion">
                 <div class="ini-sesion"><a href="http://localhost//MelomaniaSV/HTML/iniciarsesion.php">INICIAR SESIÓN</a></div>
                 <div class="registro">REGÍSTRATE</div>
@@ -33,6 +33,7 @@
             <!-- Hipervinculo para acceder a la tienda y cursos-->
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
+            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Nosotros</a>
         </div>
 
 
