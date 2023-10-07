@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/contenidoindex.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/registro.css') }}"> 
-    <link rel="stylesheet" href="{{ asset('css/carouselRecommended.css') }}"> 
+    <link rel="stylesheet" href="{{ asset('css/carouselRecommended.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/cursos.css') }}">
     
 
     
