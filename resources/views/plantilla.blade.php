@@ -62,7 +62,7 @@
     
     <script src="http://localhost//MelomaniaSV/js/registro.js"></script>
     <script src="{{ asset('js/registro.js') }}"></script>
-    <script src="{{ asset('js/carouselRecommended.js') }}"></script>
+    <script src="{{ asset('js/cursos.png') }}"></script>
 </body>
 </html>
 

@@ -3,14 +3,17 @@
     max-width: 1100px;
     width: 90%;
     margin: auto;
+    display: flex;
   }
   .contenedor_proyectos h1 {
     color: #494b4d;
     font-weight: 400;
     margin: 0px 0px;
+    display: flex;
   }
   .categoria .categoria_item_active {
     background: #fff;
+    
   }
   
   /*======================================
@@ -19,6 +22,7 @@
   
   .Proyectos {
   padding: 0% 4% 0% 0%;
+  display: flex;
   }
   .proyectos .proyectos_item {
     box-shadow: 0px 0px 7px 0px #d9c6b4;
@@ -26,10 +30,12 @@
     width: 450PX;
     margin-left: 0%;
     margin-bottom: 0px;
+    display: flex;
   }
   .proyectos .proyectos_item img {
     padding: 1px;
-    width: 99.5%
+    width: 99.5%;
+    display: flex;
   }
   .proyectos .proyectos_item a {
     display: block;
@@ -39,4 +45,5 @@
     text-decoration: none;
     font-size: 16px;
     color: #fff;
+    display: flex;
   }
