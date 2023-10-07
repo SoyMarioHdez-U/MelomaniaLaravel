@@ -18,6 +18,11 @@ p{
     color: rgb(31, 23, 23);
 }
 
+.titledeta{
+  color: rgb(31, 23, 23);
+  font-size: 25px;
+}
+
 .titles{
     font-size: 45px;
     font-family: 'Birthstone';
@@ -697,18 +702,18 @@ html, body {
 }
 
 .mi-boton {
-  background: color #d9c6b4; 
+  background: color #BF8464; 
   color: #593c32; 
   border: none; 
   padding: 10px 20px; 
-  border-radius: 5px; 
+  border-radius: 7px; 
   cursor: pointer; 
-  font-family: 'Italiana';
-  font-size: 18px;
+  font-family: 'Bebas Neue';
+  font-size: 20px;
 }
 
  .mi-boton:hover {
-  background-color: #BF8464; /* Cambia el color de fondo al pasar el mouse */
+  background-color: #8C5E40; /* Cambia el color de fondo al pasar el mouse */
 }
 
 ul {
@@ -854,6 +859,42 @@ ul {
 }
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.imagen {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.lupa {
+  position: absolute;
+  width: 100px; /* Ancho de la lupa */
+  height: 100px; /* Altura de la lupa */
+  border: 2px solid #000;
+  border-radius: 50%; /* Forma circular para la lupa */
+  background-repeat: no-repeat;
+  background-size: 300% 300%; /* Ajusta el tamaño del fondo para el zoom */
+  background-image: url("imagen.jpg"); /* Ruta de la imagen de fondo */
+  background-position: center; /* Centra la imagen de fondo */
+  opacity: 0;
+  pointer-events: none; /* Evita que la lupa interfiera con eventos de ratón */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.imagen-contenedor:hover .lupa {
+  opacity: 1;
+}
+
+.lupa:hover {
+  background-size: 400% 400%; /* Aumenta el zoom cuando se pasa el ratón sobre la lupa */
+}
+
+
+=======
+=======
+>>>>>>> 8b429aff2b13a993fdd951c753fbea450e4c1606
 .titulo-curso{
   background-color: #fdddd2;
 }
@@ -865,6 +906,9 @@ ul {
 .nosotros p{
   font-family: 'Inria Sans';
 }
+<<<<<<< HEAD
+>>>>>>> cdcad48d3ff58349c506d354f1ad215dccca76e5
+=======
 
 .ver-cursos{
   font-family: 'Bebas Neue';
@@ -877,3 +921,4 @@ ul {
 .ver-cursos p{
   text-align: center;
 }
+>>>>>>> 8b429aff2b13a993fdd951c753fbea450e4c1606

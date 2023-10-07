@@ -41,6 +41,7 @@
                     <label for="nombre"></label>
                     <input type="text" id="nombre" name="nombre" placeholder="Dejanos tu comentario" />
                 </div>
+                <!-- AHHHHHH -->
         </div>
      </div>
 </div>
