@@ -15,7 +15,13 @@
         <div class="barralateral">
           <ul>
             <li><button class="botones">Intrumentos</button></li>
+            <li><button class="botones">Guitarras</button></li>
+            <li><button class="botones">Teclados</button></li>
+            <li><button class="botones">Violines</button></li>
+            <li><button class="botones">Melates</button></li>
+            <li><button class="botones">Percución</button></li>
             <li><button class="botones">Equipo de sonido</button></li>
+            <li><button class="botones">Amplificadores</button></li>
             <li><button class="botones">Libros</button></li>
           </ul>
         </div>        
