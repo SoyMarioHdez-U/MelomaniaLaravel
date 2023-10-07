@@ -16,10 +16,7 @@
 <div class="carrusel-cursos">
 <div class="titulo-curso">
   <h1 class="titles">Cursos Basicos</h1>
-<<<<<<< HEAD
-=======
   <p align="center"><a class="ver-cursos" href="{{ route('cursosbasicos')}}"> Ver los cursos...</a></p>
->>>>>>> 8b429aff2b13a993fdd951c753fbea450e4c1606
 </div>  
 
   <div id="carouselExample" class="carousel slide">
@@ -50,10 +47,7 @@
 <div class="carrusel-cursos">
 <div class="titulo-curso">
   <h1 class="titles">Cursos Intermedios</h1>
-<<<<<<< HEAD
-=======
   <p align="center"><a class="ver-cursos" href="{{ route('cursosintermedios')}}"> Ver los cursos...</a></p>
->>>>>>> 8b429aff2b13a993fdd951c753fbea450e4c1606
 </div>  
 
   <div id="carouselExample2" class="carousel slide">
@@ -85,10 +79,7 @@
 <div class="carrusel-cursos">
 <div class="titulo-curso">
   <h1 class="titles">Cursos Avanzados</h1>
-<<<<<<< HEAD
-=======
   <p align="center"><a class="ver-cursos" href="{{ route('cursosavanzados')}}"> Ver los cursos...</a></p>
->>>>>>> 8b429aff2b13a993fdd951c753fbea450e4c1606
 </div>  
 
   <div id="carouselExample3" class="carousel slide">
