@@ -49,17 +49,17 @@ Route::get('/cursos', function(){
     return view('cursos');
 })->name('cursos');
 
-Route::get('/cursos-básicos', function () {
+Route::get('/cursos/basicos', function(){
     return view('cursosbasicos');
 })->name('cursosbasicos');
 
-Route::get('/cursos-intermedios', function () {
+Route::get('/cursos/intermedios', function () {
     return view('cursosIntermedios');
-})->name('cursosIntermedios');
+})->name('cursosintermedios');
 
-Route::get('/cursos-avanzado', function () {
-    return view('cursosAvanzados');
-})->name('cursosAvanzado');
+Route::get('/cursos/avanzado', function () {
+    return view('cursosavanzados');
+})->name('cursosavanzados');
 
 
 

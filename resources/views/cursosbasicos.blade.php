@@ -58,4 +58,4 @@
       </div>
     </section>
     <script src="http://localhost//MelomaniaSV/js/cursos.js"></script>
-@section
+@endsection

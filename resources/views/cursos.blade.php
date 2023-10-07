@@ -18,15 +18,15 @@
 
     <h1 class="titles">Cursos Basicos</h1>
     <div style="text-align: center">
-    <button class="BotonC">Ver Más....</button>
+    <button class="BotonC"><a class="BotonC" href="{{ route('cursosbasicos') }}">Ver Más...</a></button>
     </div>
 
   <div id="actions">
     <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowleft">
     </a>
   </div>
   <div id="items">
@@ -42,23 +42,23 @@
     <!--carrusel cursos Intermedio-->
     <h1 class="titles">Cursos Intermedios</h1>
     <div style="text-align: center">
-    <button class="BotonC" href="{{ route('cursosIntermedios') }}">Ver Más....</button>
+    <button class="BotonC"><a class="BotonC" href="{{ route('cursosintermedios') }}">Ver Más...</a></button>
     </div>
 
   <div id="actions">
     <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowleft">
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/libro-solfeo.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/microfono.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bongos.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
+    <img draggable="false" id="item 1" src="{{ asset('images/libro-solfeo.jpg') }}">
+    <img draggable="false" id="item 2" src="http://localhost/MelomaniaSV/Img/microfono.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/bongos.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
   </div>
 </div>
 
@@ -66,15 +66,15 @@
          <!--carrusel cursos Avanzado-->
          <h1 class="titles">Cursos Avanzados</h1>
          <div style="text-align: center">
-    <button class="BotonC">Ver Más....</button>
+    <button class="BotonC"><a class="BotonC" href="{{ route('cursosavanzados') }}">Ver Más...</a></button>
     </div>
 
   <div id="actions">
     <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowleft">
     </a>
   </div>
   <div id="items">
@@ -85,5 +85,5 @@
     <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
   </div>
 </div>
-<script src="http://localhost//MelomaniaSV/js/cursos.js"></script>
+<script src="{{ asset('js/cursos.png') }}"></script>
 @endsection

@@ -23,6 +23,7 @@ p{
     font-family: 'Birthstone';
     color: rgb(83, 14, 14);
     text-align: center;
+    text-decoration: none;
 }
 
 @font-face {
@@ -203,6 +204,7 @@ html, body {
     text-align: center;
     width: 150px;
     height: 50px;
+    text-decoration: none;
 
 }
 
@@ -233,6 +235,7 @@ html, body {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
+    text-decoration: none;
   }
   .container_carru #actions #arrowleft .arrowleft {
     cursor: pointer;
@@ -830,3 +833,21 @@ ul {
   display: flex;
 }
 
+
+.nosotros p{
+  text-align: center;
+}
+
+.mision{
+  display: flex;
+  justify-content: center; /* Esto centrará horizontalmente los elementos secundarios */
+  align-items: center;
+}
+
+.card{
+  margin: 1%; 
+}
+
+.card-text{
+  text-align: justify;
+}
