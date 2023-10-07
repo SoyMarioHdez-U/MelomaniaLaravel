@@ -1,9 +1,10 @@
 @extends('plantilla')
-@yield('content')
- <div class="leccion">
+@section('content')
+ 
+<div class="leccion">
     <h1>Lección 1</h1>
     <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_VkDa3ADjuQ?si=UZlCtWNHP9hChtTt" frameborder="0" allowfullscreen></iframe></p>
- </div>
+   </div>
 
  <div class="leccion">
     <h1>Lección 2</h1>
@@ -16,11 +17,11 @@
  </div>
 
  <div class="marcador">
-    <p>Progreso: <span id="progreso">0%</span></p>
+    <p>Progreso: <span class="progreso">0%</span></p>
  </div>
 
- <button id="avanzar">Siguiente</button>
+ <button class="Avanzar">Siguiente</button>
 
- <script src="http://localhost//MelomaniaSV/js/cursos.js"></script>
+ <script src="{{ asset('js/cursos.png') }}"></script>
 
 @endsection

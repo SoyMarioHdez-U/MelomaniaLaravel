@@ -123,8 +123,8 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  const progresoElement = document.getElementById('progreso');
-  const avanzarButton = document.getElementById('avanzar');
+  const progresoElement = document.getElementsByClassName('progreso');
+  const avanzarButton = document.getElementsByClassName('Avanzar');
 
   let progreso = 0;
 
