@@ -65,6 +65,10 @@ Route::get('/detalleampli', function () {
     return view('detalleampli');
 })->name('detalleampli');
 
+Route::get('/detalleguitarra1', function () {
+    return view('detalleguitarra1');
+})->name('detalleguitarra1');
+
 
 
 
