@@ -40,6 +40,7 @@
                     
                     <label for="nombre"></label>
                     <input type="text" id="nombre" name="nombre" placeholder="Dejanos tu comentario" />
+                    <a href=" " class="botoncarrito">Enviar</a>
                 </div>
         </div>
      </div>

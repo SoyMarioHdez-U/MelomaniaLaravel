@@ -73,6 +73,10 @@ Route::get('/detalleguitarra1', function () {
     return view('detalleguitarra1');
 })->name('detalleguitarra1');
 
+Route::get('/detallelibro', function () {
+    return view('detallelibro');
+})->name('detallelibro');
+
 
 
 

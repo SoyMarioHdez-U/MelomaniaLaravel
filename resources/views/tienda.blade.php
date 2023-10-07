@@ -69,7 +69,7 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
+                      <a href="{{ route('detallelibro') }} " class="botondetalles">Detalles</a>
                     </div>
                       <a href=" " class="botoncarrito">Agregar</a>
                   </div>
