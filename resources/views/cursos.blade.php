@@ -42,7 +42,7 @@
     <!--carrusel cursos Intermedio-->
     <h1 class="titles">Cursos Intermedios</h1>
     <div style="text-align: center">
-    <button class="BotonC">Ver Más....</button>
+    <button class="BotonC" href="{{ route('cursosIntermedios') }}">Ver Más....</button>
     </div>
 
   <div id="actions">

@@ -49,15 +49,15 @@ Route::get('/cursos', function(){
     return view('cursos');
 })->name('cursos');
 
-Route::get('/', function () {
+Route::get('/cursos-básicos', function () {
     return view('cursosbasicos');
 })->name('cursosbasicos');
 
-Route::get('/', function () {
+Route::get('/cursos-intermedios', function () {
     return view('cursosIntermedios');
-})->name('cursosbIntermedios');
+})->name('cursosIntermedios');
 
-Route::get('/', function () {
+Route::get('/cursos-avanzado', function () {
     return view('cursosAvanzados');
 })->name('cursosAvanzado');
 
