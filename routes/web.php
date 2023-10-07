@@ -61,6 +61,10 @@ Route::get('/cursos-avanzado', function () {
     return view('cursosAvanzados');
 })->name('cursosAvanzado');
 
+Route::get('/detalleampli', function () {
+    return view('detalleampli');
+})->name('detalleampli');
+
 
 
 

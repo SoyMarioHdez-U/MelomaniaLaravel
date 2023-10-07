@@ -34,10 +34,10 @@
                 <img src="{{ asset('images/productos/1/ampli-guitar.jpg') }}" alt="" width="259" height="200">
                 <div class="card-body">
                   <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
-                  <p class="card-text">$200.00 </p>
+                  <p class="card-text">$0200.0 </p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                      <a href=" " class="botondetalles">Detalles</a>
+                      <a href="{{ route('detalleampli') }}" class="botondetalles">Detalles</a>
                     </div>
                       <a href=" " class="botoncarrito">Agregar</a>
                   </div>
