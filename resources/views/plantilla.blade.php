@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/contenidoindex.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/registro.css') }}"> 
-    
+    <link rel="stylesheet" href="{{ asset('css/carouselRecommended.css') }}"> 
     
 
     
     <link rel="icon" href="{{ asset('images/icono.png') }}" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+
 
     
 </head>
@@ -59,6 +61,8 @@
     </div>
     
     <script src="http://localhost//MelomaniaSV/js/registro.js"></script>
+    <script src="{{ asset('js/registro.js') }}"></script>
+    <script src="{{ asset('js/carouselRecommended.js') }}"></script>
 </body>
 </html>
 
