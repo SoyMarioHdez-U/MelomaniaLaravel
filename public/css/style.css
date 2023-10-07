@@ -851,3 +851,12 @@ ul {
 .card-text{
   text-align: justify;
 }
+
+
+.titulo-curso{
+  background-color: #fdddd2;
+}
+
+.titleContent{
+  font-family: 'Inria Sans';
+}
