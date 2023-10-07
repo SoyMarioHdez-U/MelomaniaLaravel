@@ -49,6 +49,10 @@ Route::get('/cursos', function(){
     return view('cursos');
 })->name('cursos');
 
+Route::get('/', function () {
+    return view('cursosbasicos');
+})->name('cursosbasicos');
+
 
 
 
