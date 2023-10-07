@@ -850,6 +850,7 @@ ul {
 
 .card-text{
   text-align: justify;
+  font-family: 'Inria Sans';
 }
 
 
@@ -858,5 +859,9 @@ ul {
 }
 
 .titleContent{
+  font-family: 'Inria Sans';
+}
+
+.nosotros p{
   font-family: 'Inria Sans';
 }
