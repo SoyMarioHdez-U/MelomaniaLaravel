@@ -21,20 +21,20 @@
     <button class="BotonC">Ver Más....</button>
     </div>
 
-  <div id="actions">
-    <a id="arrowrigth">
+  <div class="actions">
+    <a class="arrowrigth">
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
     </a>
-    <a id="arrowleft">
+    <a class="arrowleft">
       <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
-  <div id="items">
-    <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" ">
-    <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
-    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
-    <img draggable="false" id="item" src="http://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
-    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
+  <div class="items">
+    <img draggable="false" class="item" src="http://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" ">
+    <img draggable="false" class="item" src="http://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
+    <img draggable="false" class="item" src="http://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
+    <img draggable="false" class="item" src="http://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
+    <img draggable="false" class="item" src="http://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
   </div>
 </div>
 
@@ -45,20 +45,20 @@
     <button class="BotonC" href="{{ route('cursosIntermedios') }}">Ver Más....</button>
     </div>
 
-  <div id="actions">
-    <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
-    </a>
-    <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
-    </a>
-  </div>
-  <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/libro-solfeo.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/microfono.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bongos.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
+    <div class="actions">
+      <a class="arrowrigth">
+        <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      </a>
+      <a class="arrowleft">
+        <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      </a>
+    </div>
+    <div class="items">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/libro-solfeo.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/microfono.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/bongos.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
   </div>
 </div>
 
@@ -69,20 +69,20 @@
     <button class="BotonC">Ver Más....</button>
     </div>
 
-  <div id="actions">
-    <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
-    </a>
-    <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
-    </a>
-  </div>
-  <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/piano.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/violin.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/DIRECCION.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
+    <div class="actions">
+      <a class="arrowrigth">
+        <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      </a>
+      <a class="arrowleft">
+        <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      </a>
+    </div>
+    <div class="items">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/piano.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/violin.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/DIRECCION.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
+    <img draggable="false" class="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
   </div>
 </div>
 <script src="http://localhost//MelomaniaSV/js/cursos.js"></script>
