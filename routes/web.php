@@ -77,6 +77,10 @@ Route::get('/detallelibro', function () {
     return view('detallelibro');
 })->name('detallelibro');
 
+Route::get('/detallesbateria', function () {
+    return view('detallesbateria');
+})->name('detallesbateria');
+
 
 
 
