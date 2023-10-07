@@ -73,10 +73,10 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+              <img src="{{ asset('images/productos/4/guit-acus.jpeg') }}" alt="" width="259" height="200">
                 <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
+                  <h5 class="card-title">BATERIA ACUSTICA PROFESIONAL YAMAHA STAGE CUSTOM</h5>
+                  <p class="card-text">$4,000.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                       <a href=" " class="botondetalles">Detalles</a>
@@ -89,10 +89,10 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+              <img src="{{ asset('images/productos/5/guit-acus.jpeg') }}" alt="" width="259" height="200">
                 <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
+                  <h5 class="card-title">CAJON PERUANO LP ASPIRE 1331 NATURAL</h5>
+                  <p class="card-text">$120.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                       <a href=" " class="botondetalles">Detalles</a>
@@ -105,10 +105,10 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="{{ asset('images/guit-acus.jpeg') }}" alt="" width="259" height="200">
+              <img src="{{ asset('images/productos/6/guit-acus.jpeg') }}" alt="" width="259" height="200">
                 <div class="card-body">
-                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
-                  <p class="card-text">$500.00 </p>
+                  <h5 class="card-title">GUITARRA ELECTRICA JS32RT JACKSON</h5>
+                  <p class="card-text">$1000.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                       <a href=" " class="botondetalles">Detalles</a>
