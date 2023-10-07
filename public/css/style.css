@@ -855,9 +855,11 @@ ul {
 
 .card-text{
   text-align: justify;
+  font-family: 'Inria Sans';
 }
 
 
+<<<<<<< HEAD
 .imagen {
   width: 100%;
   max-width: 100%;
@@ -889,3 +891,16 @@ ul {
 }
 
 
+=======
+.titulo-curso{
+  background-color: #fdddd2;
+}
+
+.titleContent{
+  font-family: 'Inria Sans';
+}
+
+.nosotros p{
+  font-family: 'Inria Sans';
+}
+>>>>>>> cdcad48d3ff58349c506d354f1ad215dccca76e5

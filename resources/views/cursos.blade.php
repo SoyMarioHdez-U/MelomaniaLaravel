@@ -6,86 +6,112 @@
                 <p class="titleContent">Es una de nuestras metas brindarte herramientas para
                                         que puedas desarrollarte musicalmente en lo que desees.<br> 
                                         Por lo que esta sección es para ti que estás interesado en aprender. Aquí 
-                                        encontraras cursos básicos hasta avanzados, entre nuestros,<br>
+                                        encontraras cursos básicos hasta avanzados, <br>entre nuestros
                                         cursos encontrarás algunos gratis y para todo público
                                         y otros específicamente para los miembros de nuestra comunidad.<br>
                                       </p> <p><br></p>
                                         
 </div>
 
-<div class= "container_carru">
-    <!--carrusel cursos basicos-->
+<div class="carrusel-cursos">
+<div class="titulo-curso">
+  <h1 class="titles">Cursos Basicos</h1>
+</div>  
 
-    <h1 class="titles">Cursos Basicos</h1>
-    <div style="text-align: center">
-    <button class="BotonC"><a class="BotonC" href="{{ route('cursosbasicos') }}">Ver Más...</a></button>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ asset('images/cursos/prin1.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/prin2.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/prin3.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/prin4.png') }}" class="d-block w-100" alt="...">
+      </div>
     </div>
-
-  <div class="actions">
-    <a class="arrowrigth">
-      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowrigth">
-    </a>
-    <a id="arrowleft">
-      <img src="{{ asset('images/flecha-correcta.png') }}" class="arrowleft">
-    <a class="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
-    </a>
-  </div>
-  <div class="items">
-    <img draggable="false" class="item" src="http://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" ">
-    <img draggable="false" class="item" src="http://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
-    <img draggable="false" class="item" src="http://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
-    <img draggable="false" class="item" src="http://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
-    <img draggable="false" class="item" src="http://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
-  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
-<div class="container_carru">
-    <!--carrusel cursos Intermedio-->
-    <h1 class="titles">Cursos Intermedios</h1>
-    <div style="text-align: center">
-    <button class="BotonC"><a class="BotonC" href="{{ route('cursosintermedios') }}">Ver Más...</a></button>
-    </div>
+<div class="carrusel-cursos">
+<div class="titulo-curso">
+  <h1 class="titles">Cursos Intermedios</h1>
+</div>  
 
-  <div id="actions">
-    <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
-    </a>
-    <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
-    </a>
-  </div>
-  <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/libro-solfeo.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/microfono.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bongos.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
-  </div>
+  <div id="carouselExample2" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ asset('images/cursos/inter1.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/inter2.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/inter3.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/inter4.png') }}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
-    <div class="container_carru">
-         <!--carrusel cursos Avanzado-->
-         <h1 class="titles">Cursos Avanzados</h1>
-         <div style="text-align: center">
-    <button class="BotonC"><a class="BotonC" href="{{ route('cursosavanzados') }}">Ver Más...</a></button>
-    </div>
 
-  <div id="actions">
-    <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
-    </a>
-    <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
-    </a>
-  </div>
-  <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/piano.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/violin.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/DIRECCION.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
-  </div>
+<div class="carrusel-cursos">
+<div class="titulo-curso">
+  <h1 class="titles">Cursos Avanzados</h1>
+</div>  
+
+  <div id="carouselExample3" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ asset('images/cursos/ava1.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/ava2.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/ava3.png') }}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('images/cursos/ava4.png') }}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
 </div>
+
+
+
+</div>
+
+
+
+
+
+
 <script src="{{ asset('js/cursos.png') }}"></script>
 @endsection

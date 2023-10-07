@@ -6,26 +6,28 @@
       <div class="galeria col-md-12 col-xs-12"> 
     <div class="proyectos col-md-12 col-xs-12 text-center">
           <!--Inicia div proyectos-->
+          <div>
           <div class="proyectos_item col-md-3 col-xs-12" category="web">
-            <img class="col-md-12 col-xs-12 img-responsive" src="https://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" " >
-            <a class="col-md-12 col-xs-12">TROMPETA</a>
+            <img class="col-md-12 col-xs-12 img-responsive"  src="https://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" " >
+            <button class="BotonC"><a class="BotonC" href="{{ route('leccionestrompeta') }}"> Trompeta </button>
           </div>
           <div class="proyectos_item col-md-3 col-xs-12" category="responsive">
             <img class="col-md-12 col-xs-12 img-responsive" src="https://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
-            <a class="col-md-12 col-xs-12">SAXOFON</a>
+            <button class="BotonC"><a class="BotonC" href="{{ route('leccionestrompeta') }}"> Saxofon </button>
           </div>
           <div class="proyectos_item col-md-3 col-xs-12" category="ecommerce">
             <img class="col-md-12 col-xs-12 img-responsive" src="https://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
-            <a class="col-md-12 col-xs-12">GUITARRA</a>
+            <button class="BotonC"><a class="BotonC" href="{{ route('leccionestrompeta') }}"> Guitarra </button>
           </div>
           <div class="proyectos_item col-md-3 col-xs-12" category="app">
             <img class="col-md-12 col-xs-12 img-responsive" src="https://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
-            <a class="col-md-12 col-xs-12" href="#">SONIDO Y ECUALIZACION</a>
+            <button class="BotonC"><a class="BotonC" href="{{ route('leccionestrompeta') }}">Ecualizacion</button>
           </div>
           <div class="proyectos_item col-md-3 col-xs-12" category="web">
             <img class="col-md-12 col-xs-12 img-responsive" src="https://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
-            <a class="col-md-12 col-xs-12" href="#">VIOLIN</a>
+            <button class="BotonC"><a class="BotonC" href="{{ route('leccionestrompeta') }}"> Violin</button>
           </div>
+        </div>
           <div class="proyectos_item col-md-3 col-xs-12" category="escritorio">
             <img class="col-md-12 col-xs-12 img-responsive" src="https://th.bing.com/th/id/OIP.G-1-jdmIr72oeUDlLLCOIgHaEo?pid=ImgDet&rs=1" alt="">
             <a class="col-md-12 col-xs-12" href="#">CELLO</a>
