@@ -10,7 +10,7 @@
      <!-- Estilos de css y bootstrap -->
      <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/cursos.css">
 
 </head>
 <body>
