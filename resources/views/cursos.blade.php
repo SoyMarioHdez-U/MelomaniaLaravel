@@ -30,11 +30,11 @@
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cello.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bateria.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/consola.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/trompeta.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/solfeo1.jpg">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" ">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
+    <img draggable="false" id="item" src="http://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
   </div>
 </div>
 
