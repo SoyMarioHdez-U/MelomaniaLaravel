@@ -865,3 +865,15 @@ ul {
 .nosotros p{
   font-family: 'Inria Sans';
 }
+
+.ver-cursos{
+  font-family: 'Bebas Neue';
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.ver-cursos p{
+  text-align: center;
+}

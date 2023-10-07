@@ -16,6 +16,7 @@
 <div class="carrusel-cursos">
 <div class="titulo-curso">
   <h1 class="titles">Cursos Basicos</h1>
+  <p align="center"><a class="ver-cursos" href="{{ route('cursosbasicos')}}"> Ver los cursos...</a></p>
 </div>  
 
   <div id="carouselExample" class="carousel slide">
@@ -46,6 +47,7 @@
 <div class="carrusel-cursos">
 <div class="titulo-curso">
   <h1 class="titles">Cursos Intermedios</h1>
+  <p align="center"><a class="ver-cursos" href="{{ route('cursosintermedios')}}"> Ver los cursos...</a></p>
 </div>  
 
   <div id="carouselExample2" class="carousel slide">
@@ -77,6 +79,7 @@
 <div class="carrusel-cursos">
 <div class="titulo-curso">
   <h1 class="titles">Cursos Avanzados</h1>
+  <p align="center"><a class="ver-cursos" href="{{ route('cursosavanzados')}}"> Ver los cursos...</a></p>
 </div>  
 
   <div id="carouselExample3" class="carousel slide">
