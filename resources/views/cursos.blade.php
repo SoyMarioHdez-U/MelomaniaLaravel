@@ -85,4 +85,5 @@
     <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
   </div>
 </div>
+<script src="http://localhost//MelomaniaSV/js/cursos.js"></script>
 @endsection

@@ -251,19 +251,19 @@ html, body {
     cursor: move;
     z-index: 100;
     overflow: hidden;
-    height: 500px;
+    width: 100%;
     position: relative;
     /*lado izquierdo*/
   }
  
   .container_carru #items #item {
     display: none;
-    height: 50%;
+    height: 25%;
     position: center;
   }
   .container_carru #items .img_left {
     display: block !important;
-    left: 50%;
+    left: 25%;
     opacity: 0.4;
     z-index: 0;
     -webkit-transform: translateX(-100%) scale(0.9);
@@ -273,7 +273,7 @@ html, body {
   }
   .container_carru #items .img_rigth {
     display: block !important;
-    left: 50%;
+    left: 25%;
     opacity: 0.4;
     -webkit-transform: translateX(0%) scale(0.9);
     -moz-transform: translateX(0%) scale(0.9);
