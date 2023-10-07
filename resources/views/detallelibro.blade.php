@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 order-md-1">
-            <img src="{{ asset('images/productos/1/ampli-guitar.jpg') }}" alt="Imagen" class="imagen"/>
+            <img src="{{ asset('/images/productos/3/50-Partituras-Para-Aficionados-Al-Piano.jpg') }}" alt="Imagen" class="imagen"/>
             <div class="lupa"></div>
         </div>
 
@@ -12,8 +12,8 @@
                 <div class = "titledeta">
                 <p>
                     <b>
-                    AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h2>
-                    $200.00 
+                    50 Partituras Para Aficionados Al Piano
+                    $20.00
                     </b>
                 </p>
 
@@ -21,7 +21,7 @@
 
                 <div class = "lead">
                     <p>
-                    Cuenta con dos altavoces de 12″ Fender Special Desing, 100 watts de potencia. Dispone de dos canales, el primero con 5 knobs Volumen
+                    Autor: Miguel Ángel Fernández Pérez. Es un libro que posee 50 partituras populares de canciones hermosas para piano, con un nivel medio de dificultad.
                     </p>
                 </div>
 
@@ -40,8 +40,9 @@
                     
                     <label for="nombre"></label>
                     <input type="text" id="nombre" name="nombre" placeholder="Dejanos tu comentario" />
+                    <a href=" " class="botoncarrito">Enviar</a>
                 </div>
-                <!-- AHHHHHH -->
+                
         </div>
      </div>
 </div>
