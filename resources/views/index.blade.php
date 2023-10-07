@@ -59,13 +59,18 @@
 </div>
 
 
+
+
+
+
+
 <div class="recommended">
 <div class="card recommended" style="width: 18rem;">
-  <img src="{{ asset('images/inicio/6.png') }}" class="card-img-top" alt="...">
+  <img src="{{ asset('images/inicio/9.png') }}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">TECLADO YAMAHA</h5>
+    <h5 class="card-title">SINTETIZADOR ROLAND XPS-30</h5>
     <p class="card-text">Teclado de 61 teclas con más de 1000 sonidos editables.</p>
-    <p class="card-text"><B>$2300.00</B></p>
+    <p class="card-text"><B>$925.00</B></p>
     <a href="#" class="btn btn-primary">Comprar</a>
   </div>
 </div>
@@ -83,8 +88,9 @@
 <div class="card recommended" style="width: 18rem;">
   <img src="{{ asset('images/inicio/6.png') }}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">TECLADO YAMAHA</h5>
+    <h5 class="card-title">TECLADO YAMAHA MX88</h5>
     <p class="card-text">Teclado de 61 teclas con más de 1000 sonidos editables.</p>
+    <p class="card-text"><B>$2,400.80</B></p>
     <a href="#" class="btn btn-primary">Comprar</a>
   </div>
 </div>
